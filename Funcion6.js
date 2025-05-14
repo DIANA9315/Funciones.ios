@@ -2,7 +2,7 @@
 function numeros(a=1, b=2, c=3) {
     console.log("valor del parametro a: ",a)
     console.log("valor del parametro b: ",b)
-    console.log("valor del parametro c: ",c)
+    console.log("valor del parametro c: ",c) 
 }
 
 //llaadmos multiples a la misma funcion para ver un ejemplo de reutilizacion 
