@@ -8,7 +8,7 @@ function saludar(a,b) {
 
 function producto (a,b){
         console.log("Hola estas dentro de la funcion saludar")
-        let p 
+        let p //solo la variable
         console.log("Producto a*b = ", a*b)
 }
 
