@@ -81,4 +81,4 @@ for (let i=0; i < nombreAlumno.length; i++) {
     } else { 
         evaluacion = "No aprueba"; 
     } 
-   // console.log(`La nota de ${nombre} es ${nota}. Evaluacion: ${evaluacion}`);
+   // console.log(`La nota de ${nombre} es ${nota}. Evaluacion: ${evaluacion} 

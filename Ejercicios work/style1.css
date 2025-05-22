@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.tabla-simulada {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.fila {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.promedios {
+    margin-top: 20px;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.promedios span {
+    display: block;
+    margin-bottom: 8px;
+}

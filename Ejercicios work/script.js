@@ -30,7 +30,7 @@ const empleados = [
     imagen: "/img/img5.jpg"
   },
   {
-    empleado: "Diego Torres",
+    empleado: "Dana Torres",
     cargo: "DevOps",
     salario: 4200,
     imagen: "/img/img6.jpg"
