@@ -4,7 +4,7 @@ const parrafo = document.querySelector("#parrafo");
 const boton = document.querySelector("#boton");
 
 // Modificar el contenido con innerHTML
-titulo.innerHTML = "<strong>Bienvenido al DOM</strong>";
+titulo.innerHTML = "<p>Bienvenido al DOM</p>";
 parrafo.style.color = "blue";
 
 // Agregar evento al botón
