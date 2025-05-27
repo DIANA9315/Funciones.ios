@@ -1,0 +1,37 @@
+/* --- Variables CSS --- */
+:root {
+    /* Colores */
+    --color-dark-grey: hsl(248, 68%, 64%);
+    --color-grey: hsl(251, 9%, 53%);
+    --color-almost-white: hsl(252, 11%, 91%);
+    --color-very-dark-grey: hsl(276, 76%, 62%);
+
+    /* Colores de fuerza */
+    --color-strength-red: hsl(0, 100%, 66%);
+    --color-strength-orange: hsl(29, 100%, 50%);
+    --color-strength-yellow: hsl(42, 93%, 66%);
+    --color-strength-green: hsl(127, 100%, 82%);
+
+    /* Fuentes */
+    --font-family-jetbrains-mono: 'JetBrains Mono', monospace;
+
+    /* Espaciado */
+    --spacing-16: 1rem;
+    --spacing-20: 1.25rem;
+    --spacing-24: 1.5rem;
+    --spacing-32: 2rem;
+}
+
+/* --- Reset Básico y Estilos Globales --- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family-jetbrains-mono);
+    background-color: var(--color-very-dark-grey);
+    color: var
