@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gestión de Tareas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main">
+    <!-- Formulario -->
+    <div class="left-panel">
+      <h2>Agregar Tarea</h2>
+      <form id="formulario">
+        <label>
+          Tarea:
+          <input type="text" id="tarea" required />
+        </label>
+        <label>
+          Tiempo (horas):
+          <input type="number" id="tiempo" min="1" required />
+        </label>
+        <label>
+          Valor por Hora:
+          <input type="number" id="valorHora" min="0" required />
+        </label>
+        <button type="submit">Agregar</button>
+      </form>
+    </div>
+
+    <!-- Lista de Tareas -->
+    <div class="right-panel">
+      <h2>Lista de Tareas</h2>
+      <div class="tabla">
+        <div class="fila encabezado">
+          <div class="col col-tarea">Tarea</div>
+          <div class="col col-tiempo">Horas</div>
+          <div class="col col-valor">Valor/Hora</div>
+          <div class="col col-total">Total</div>
+          <div class="col col-accion">Acción</div>
+        </div>
+        <div id="listaTareas"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

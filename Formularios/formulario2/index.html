@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario Dinámico</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Formulario de Usuario</h2>
+    
+    <form id="formulario">
+
+      <label>Nombre:
+        <input type="text" id="nombre" required />
+      </label>
+
+      <label>Apellido:
+        <input type="text" id="apellido" required />
+      </label>
+
+      <label>Edad:
+        <input type="number" id="edad" min="0" required />
+      </label>
+
+      <div class="form-group">
+        <input type="checkbox" id="activo" />
+        <label for="activo">Usuario Activo</label>
+      </div>
+
+      <label>Nacionalidad:
+        <select id="nacionalidad" required>
+          <option value="">--Selecciona--</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Chile">Chile</option>
+          <option value="Colombia">Colombia</option>
+        </select>
+      </label>
+
+       <div class="botones">
+        <button type="button" id="btnProcesar">Procesar</button>
+        <button type="button" id="btnListar">Listar</button>
+        <button type="reset" id="btnReset">Reset</button>
+      </div>
+
+    </form>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cambiar Fondo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Cambiar color de fondo</h1>
+
+    <section>
+      <h2>Botones</h2>
+      <button class="colorButton" value="blue">Azul</button>
+      <button class="colorButton" value="red">Rojo</button>
+      <button class="colorButton" value="green">Verde</button>
+    </section>
+
+    <section>
+      <h2>Checkboxes</h2>
+      <label><input type="checkbox" class="colorCheck" value="blue" /> Azul</label>
+      <label><input type="checkbox" class="colorCheck" value="red" /> Rojo</label>
+      <label><input type="checkbox" class="colorCheck" value="green" /> Verde</label>
+    </section>
+
+    <section>
+      <h2>Radio Buttons</h2>
+      <label><input type="radio" name="colorRadio" value="blue" /> Azul</label>
+      <label><input type="radio" name="colorRadio" value="red" /> Rojo</label>
+      <label><input type="radio" name="colorRadio" value="green" /> Verde</label>
+    </section>
+
+    <section>
+      <h2>Seleccionar</h2>
+      <select id="colorSelect">
+        <option value="">-- Elige un color --</option>
+        <option value="blue">Azul</option>
+        <option value="red">Rojo</option>
+        <option value="green">Verde</option>
+      </select>
+    </section>
+  </div>
+
+  <script src="eventos.js"></script>
+</body>
+</html>

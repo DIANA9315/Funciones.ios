@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #1e1e1e;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.output {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#password {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+#copyBtn {
+  padding: 0 0.7rem;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.options label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+button#generateBtn {
+  margin-top: 1rem;
+  background: #007bff;
+  color: white;
+  padding: 0.6rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#generateBtn:hover {
+  background: #0056b3;
+}

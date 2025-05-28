@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel, .right-panel {
+  flex: 1;
+  padding: 2rem;
+  background: white;
+  overflow-y: auto;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+button {
+  padding: 0.6rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tabla {
+  margin-top: 1rem;
+}
+
+.fila {
+  display: flex;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+}
+
+.encabezado {
+  font-weight: bold;
+  background-color: #eee;
+}
+
+.col {
+  padding: 0 0.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.col-tarea {
+  width: 30%;
+}
+
+.col-tiempo,
+.col-valor,
+.col-total {
+  width: 15%;
+  text-align: center;
+}
+
+.col-accion {
+  width: 25%;
+  text-align: center;
+}
+
+.col-accion button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
